@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: www-vol
+  namespace: default
 spec:
   containers:
   - name: nginx
